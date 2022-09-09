@@ -14,9 +14,10 @@ long li;
 long long lli;
 float f;
 
-printf("size of char: %ld bytes\n", sizeof(c));
-printf("size of int: %ld bytes\n", sizeof(i));
-printf("size of long int: %ld bytes\n", sizeof(li));
-printf("size of long long int: %ld bytes\n", sizeof(lli));
-printf("size of float: %ld bytes\n", sizeof(f));
+printf("size of char: %ld byte(s)\n", sizeof(c));
+printf("size of int: %ld byte(s)\n", sizeof(i));
+printf("size of long int: %ld byte(s)\n", sizeof(li));
+printf("size of long long int: %ld byte(s)\n", sizeof(lli));
+printf("size of float: %ld byte(s)\n", sizeof(f));
 return (0);
+}
