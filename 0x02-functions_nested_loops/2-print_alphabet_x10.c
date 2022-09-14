@@ -5,7 +5,7 @@
 void print_alphabet(void)
 {
 int j;
-
+int a;
 for (j = 'a'; j <= 'z'; j++)
 int a = j * 10;
 {
