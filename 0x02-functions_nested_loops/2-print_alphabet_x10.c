@@ -1,9 +1,4 @@
-// Online C compiler to run C program online
-#include <stdio.h>
-
-int main() {
-    // Write C code here
-  #include "main.h"
+#include "main.h"
 /**
  * print_alphabet --> prints the lower case 10 times
  */
@@ -14,12 +9,13 @@ int a;
 for (j = 'a'; j <= 'z'; j++)
 a = j * 10;
 {
-_putchar(a);
+_putchar(j);
 }
+
 _putchar('\n');
 
 }
-
+write("%d", a);
 
     return 0;
 }
