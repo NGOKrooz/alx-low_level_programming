@@ -5,7 +5,7 @@
 * description: This prints _islower
 * Return: returns 1 and 0 depending on condition
 */
-int int _isalpha(int c)
+int _isalpha(int c)
 {
 return (c >= 'A'&& c <= 'Z');
 }
